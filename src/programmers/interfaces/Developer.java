@@ -1,10 +1,8 @@
-package programmers;
+package programmers.interfaces;
 
-public abstract class Developer {
+import programmers.DevelopingTask;
 
-
-    public interface Developer{
-
-        void input(DevelopingTask technicalTask);
-        boolean canDevelop();
+public interface Developer {
+    void input(DevelopingTask technicalTask);
+    boolean canDevelop();
 }

@@ -1,2 +1,5 @@
-package programmers;public class DevelopingTask {
+package programmers;
+
+public abstract class DevelopingTask {
+    public abstract String getDetails();
 }

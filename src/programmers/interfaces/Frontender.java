@@ -1,5 +1,7 @@
-package programmers;
+package programmers.interfaces;
 
-public class Frontender extends Developer {
+import programmers.Gui;
+
+public interface Frontender extends Developer {
     Gui developGui();
 }
